@@ -41,6 +41,9 @@ android {
            dimension "tfliteInference"
        }
     }
+    buildFeatures {
+        mlModelBinding true
+    }
 }
 
 // import DownloadModels task
@@ -53,6 +56,9 @@ project.ext.TMP_DIR   = project.buildDir.toString() + '/downloads'
 
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar','*.aar'])
+    implementation 'org.tensorflow:tensorflow-lite-support:0.1.0-rc1'
+    implementation 'org.tensorflow:tensorflow-lite-metadata:0.1.0-rc1'
+    implementation 'org.tensorflow:tensorflow-lite-gpu:2.2.0'
     interpreterImplementation project(":lib_interpreter")
     taskApiImplementation project(":lib_task_api")
     implementation 'androidx.appcompat:appcompat:1.0.0'
