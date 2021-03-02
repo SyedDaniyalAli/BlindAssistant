@@ -285,6 +285,7 @@ public class DetectorActivity extends CameraActivity implements OnImageAvailable
 
                         trackingOverlay.postInvalidate();
 
+//                         It's not working
 //                        requestRender();
 
 
@@ -496,7 +497,7 @@ public class DetectorActivity extends CameraActivity implements OnImageAvailable
 
     @Override
     public synchronized void onDestroy() {
-        tts.speak("I m Shutting down", 0, null);
+        tts.speak("I m Shutting down", TextToSpeech.QUEUE_FLUSH, null);
         super.onDestroy();
         tts.stop();
         tts.shutdown();
