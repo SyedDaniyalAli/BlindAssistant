@@ -3,8 +3,9 @@
     <CLASSES>
       <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/115804117d5458536392b57f4d96189a/jetified-tensorflow-lite-0.0.0-nightly-SNAPSHOT/res" />
       <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/48a6df83f6f49e3adff739e31d78ac00/jetified-tensorflow-lite-0.0.0-nightly-SNAPSHOT/res" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/48a6df83f6f49e3adff739e31d78ac00/jetified-tensorflow-lite-0.0.0-nightly-SNAPSHOT/AndroidManifest.xml" />
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/48a6df83f6f49e3adff739e31d78ac00/jetified-tensorflow-lite-0.0.0-nightly-SNAPSHOT/jars/classes.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/b1206e6609af10371d09d57a75c5dc44/jetified-tensorflow-lite-0.0.0-nightly-SNAPSHOT/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/b1206e6609af10371d09d57a75c5dc44/jetified-tensorflow-lite-0.0.0-nightly-SNAPSHOT/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/b1206e6609af10371d09d57a75c5dc44/jetified-tensorflow-lite-0.0.0-nightly-SNAPSHOT/res" />
     </CLASSES>
     <JAVADOC />
     <SOURCES />
